@@ -1,10 +1,6 @@
 import os
 from os.path import join, dirname
 
-from app import create_app
-
-from dotenv import load_dotenv
-
 # Imports
 from flask import (Flask,
                    redirect,
