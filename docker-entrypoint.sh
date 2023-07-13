@@ -8,9 +8,6 @@ done
 
 echo "MySQL started"
 
-flask db init
-flask db migrate
-flask db upgrade
 
-cd /Photos-Docker-Flask
+cd /app
 python run.py
