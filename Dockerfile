@@ -13,7 +13,6 @@ WORKDIR /app
 
 COPY . /app
 RUN pip3 install -r /app/requirements.txt
-RUN pip install -r requirements.txt
 
 RUN chmod +x /app/docker-entrypoint.sh
 
